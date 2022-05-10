@@ -1,0 +1,53 @@
+.header-portfolio {
+    border-bottom: 1px solid #ececec;
+}
+
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.filters-list {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.filters-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.filters-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #f5f4fa;
+    color: #212121;
+    border: none;
+    border-radius: 4px;
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+            color: #ffffff;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
+
+        &:active {
+            background-color: var(--accent-color);
+            color: #ffffff;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
+}
+
+
